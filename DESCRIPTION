@@ -10,7 +10,7 @@ License: GPL-3
 Encoding: UTF-8
 LazyData: true
 Imports:
-    CFMortality (>= 0.1.0),
+    BODEIndex (>= 0.1.0),
     jsonlite,
     rredis,
     tibble,
