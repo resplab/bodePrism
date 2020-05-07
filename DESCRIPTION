@@ -1,4 +1,4 @@
-Package: BODEIndexPrism
+Package: BODEindexPrism
 Title: BODE Index - PRISM Enabled
 Version: 0.1.0
 Authors@R: c(
@@ -10,7 +10,7 @@ License: GPL-3
 Encoding: UTF-8
 LazyData: true
 Imports:
-    BODEIndex (>= 0.1.0),
+    BODEindex (>= 0.1.0),
     jsonlite,
     rredis,
     tibble,
