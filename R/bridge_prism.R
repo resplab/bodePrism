@@ -12,7 +12,7 @@ model_run<-function(model_input = NULL)
 
     input<-unflatten_list(model_input)
   
-    results <- BODEIndex         (FEV1                   =model_input$FEV1,                  
+    results <- bode              (FEV1                   =model_input$FEV1,                  
                                   mMRC                   =model_input$mMRC,                  
                                   BMI                    =model_input$BMI,                  
                                   walk                   =model_input$walk)
