@@ -1,11 +1,3 @@
-#' @title Run ACCEPT Model
-#' @description This function calls the predictACCEPT model. 
-#' If no model_input is specified, it will use the defaults
-#' If one of the columns in model_input is missing, it will replace with the default column
-#' It will check all the columns of the patient_data object; if one is missing, it will
-#' replace with the default, and will remove any extra columns
-#' @param model_input A list/json object with "patient_data", "random_sampling_N", "random_distribution_iteration",
-#' and "calculate_CIs" as columns
 #' @return Returns a list of results
 model_run<-function(model_input = NULL)
 {
