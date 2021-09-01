@@ -13,7 +13,7 @@ model_run<-function(model_input = NULL)
 }
 
 
-get_default_input <- function() {
+prism_get_default_input <- function() {
   model_input <- list(FEV1                   = 40, 
                       mMRC                   = 3, 
                       BMI                    = 22, 
